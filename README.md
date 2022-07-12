@@ -28,4 +28,22 @@
     <td>InsertBoardController</td>
     <td>/board/getBoardList.do</td>
   </tr>
+  <tr>
+    <th>상세 페이지</th>
+    <td>/board/detailBoard.do</td>
+    <td>DetailBoardController</td>
+    <td>/WEB-INF/board/detailBoard.jsp</td>
+  </tr>
+  <tr>
+    <th>수정 화면</th>
+    <td>/board/updateForm.do</td>
+    <td>UpdateFormController</td>
+    <td>/WEB-INF/board/updateForm.jsp</td>
+  </tr>
+  <tr>
+    <th>수정 처리</th>
+    <td>/board/updateBoard.do</td>
+    <td>UpdateBoardController</td>
+    <td>/board/getBoardList.do</td>
+  </tr>
 </table>
