@@ -35,6 +35,12 @@
     <td>/WEB-INF/board/detailBoard.jsp</td>
   </tr>
   <tr>
+    <th>비밀번호 확인</th>
+    <td>/board/passwdCheck.do</td>
+    <td>PasswdCheckController</td>
+    <td>/WEB-INF/common/resultData.jsp</td>
+  </tr>
+  <tr>
     <th>수정 화면</th>
     <td>/board/updateForm.do</td>
     <td>UpdateFormController</td>
@@ -44,6 +50,12 @@
     <th>수정 처리</th>
     <td>/board/updateBoard.do</td>
     <td>UpdateBoardController</td>
+    <td>/board/detailBoard.do</td>
+  </tr>
+  <tr>
+    <th>삭제 처리</th>
+    <td>/board/deleteBoard.do</td>
+    <td>DeleteBoardController</td>
     <td>/board/getBoardList.do</td>
   </tr>
 </table>
