@@ -58,4 +58,16 @@
     <td>DeleteBoardController</td>
     <td>/board/getBoardList.do</td>
   </tr>
+  <tr>
+    <th>답글 입력 화면</th>
+    <td>/board/replyForm.do</td>
+    <td>ReplyFormController</td>
+    <td>/WEB-INF/board/replyForm.jsp</td>
+  </tr>
+  <tr>
+    <th>답글 입력 처리</th>
+    <td>/board/insertReply.do</td>
+    <td>InsertReplyController</td>
+    <td>/board/getBoardList.do</td>
+  </tr>
 </table>
